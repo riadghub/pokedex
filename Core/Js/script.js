@@ -7,7 +7,7 @@ let myText = document.querySelector('input');
 let myButton = document.querySelector('button');
 let myName = document.querySelector('#name-screen');
 let myImage = document.querySelector('#main-screen');
-
+alert("N'hésitez pas à cliquer sur les + et - pour parcourir la liste des pokémons !");
 fetch('https://pokebuildapi.fr/api/v1/pokemon')
   .then((response) => {
     return response.json();
@@ -83,3 +83,4 @@ fetch('https://pokebuildapi.fr/api/v1/pokemon')
     index--;
   });
 });
+

@@ -8,10 +8,10 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Press Start 2P';
-    height: 100%;
 }
 h1{
     margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
     color: black;
 }
@@ -22,25 +22,17 @@ div{
     display: block;
 }
 #textbar{
+    
     font-family: 'Press Start 2P';
     font-size: 12px;
 }
 #searchbar{
     margin-top: 10px;
     display: flex;
-    position: absolute;
-    right: 37%;
-    top: 17.8%;
+    justify-content: center;
 }
 #submit-text{
     font-family: 'Press Start 2P';
-}
-#text-box{
-    width: 500px;
-    height: 175px;
-    position: relative;
-    top: 0;
-    left: 32%;
 }
 #squelette{
     display: grid;
